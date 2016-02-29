@@ -12,8 +12,8 @@ public class HelloController extends AbstractController{
 	protected ModelAndView handleRequestInternal(HttpServletRequest request,
 		HttpServletResponse response) throws Exception {
  
-		ModelAndView modelandview = new ModelAndView("HelloPage");
-		modelandview.addObject("welcomeMessage", "Hi User, welcome to the first Spring MVC Application");
+		ModelAndView modelandview = new ModelAndView("HelloPage");//The parameter here is the web page name to be requested by the view resolver present in WEB-INF
+		modelandview.addObject("welcomeMessageTagPresentInJSPPage", "Hi User, welcome to the Spring MVC Application");
 		
 		return modelandview;
 	}

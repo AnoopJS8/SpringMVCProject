@@ -1,0 +1,7 @@
+127.0.0.1 - - [29/Feb/2016:09:51:11 -0700] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [29/Feb/2016:09:51:13 -0700] "GET /SpringMVCProject/WEB-INF/classes/com/springs/controller/HelloController.java HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [29/Feb/2016:09:52:15 -0700] "GET /SpringMVCProject/ HTTP/1.1" 404 992
+127.0.0.1 - - [29/Feb/2016:09:53:29 -0700] "GET /SpringMVCProject/welcome.jsp HTTP/1.1" 404 1050
+127.0.0.1 - - [29/Feb/2016:09:53:29 -0700] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [29/Feb/2016:09:53:29 -0700] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [29/Feb/2016:09:53:43 -0700] "GET /SpringMVCProject/welcome.html HTTP/1.1" 200 355
