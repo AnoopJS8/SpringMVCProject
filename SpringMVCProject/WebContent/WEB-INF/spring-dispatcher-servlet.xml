@@ -7,7 +7,7 @@
  <bean	id="HandlerMapping"  class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
  
 	
- <bean name="/welcome.html" class="com.gontuseries.hellocontroller.HelloController" />
+ <bean name="/welcome.html" class="com.springs.controller.HelloController" />
  
  
  <bean id="viewResolver"
