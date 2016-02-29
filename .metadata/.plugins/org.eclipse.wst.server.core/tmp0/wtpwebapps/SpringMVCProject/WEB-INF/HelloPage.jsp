@@ -8,6 +8,7 @@
 </head>
 <body>
 	<h1>Spring MVC Application Check</h1>
-	<h2>${welcomeMessageTagPresentInJSPPage}</h2>
+	<%-- <h2>${welcomeMessageTagPresentInJSPPage}</h2> --%>
+	<h2>${msg}</h2>
 </body>
 </html>

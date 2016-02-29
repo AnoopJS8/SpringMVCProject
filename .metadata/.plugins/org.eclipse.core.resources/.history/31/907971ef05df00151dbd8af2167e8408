@@ -1,0 +1,5 @@
+package com.springs.controller;
+
+public class AnnotatedHelloController {
+
+}

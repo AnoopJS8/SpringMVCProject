@@ -5,7 +5,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.AbstractController;
- 
+
+//Non Annotation Based Approach
 public class HelloController extends AbstractController{
  
 	@Override
