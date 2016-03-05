@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
+@RequestMapping("/greet") //adds a relative path to the url
 public class AnnotatedHelloController {
 	
 	@RequestMapping("/welcome")
